@@ -1,0 +1,9 @@
+Falle a la hora de implementar el minimo "bajo acoplamiento" entre clases
+Especificamente entre EmpresaDeEventos y Eventos
+Porque es la empresa la que me sabe decir 
+:Tanto los eventos registrados | Como una Colecction 
+:Tanto los eventos con su lista de cliente | Como un Map
+
+Y al parecer era mucho mas optimo plantear una composicion entre 
+EVENTO Y PARTICIPANTES 
+:Donde cada evento registrado tiene en si mismo una lista de participantes 
